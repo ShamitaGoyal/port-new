@@ -1,0 +1,20 @@
+.forfun-section{
+    background-color: black;
+    padding: 10rem;
+    border: 2px aqua solid;
+
+}
+
+.forfun-title{
+    border: 2px red solid;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h5{
+    font-weight: 200;
+}

@@ -1,0 +1,115 @@
+
+
+.project-section {
+    /* border: 2px red solid; */
+    margin-top: 10rem;
+    background-color: black;
+    text-transform: uppercase;
+    /* text-align: center; */
+    color: white;
+}
+
+.project-header {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-header h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.project-header h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+.card-container{
+    padding-top: 5rem;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    /* border-radius: 1.25rem; */
+}
+
+.col-md-4 {
+    width: 38%;
+}
+
+.card{
+    background-color: black;
+    border-radius: 1rem;
+    transition: all .2s ease-in-out; 
+    opacity: 0;
+    animation: fade-in 1s ease-in forwards;
+    filter: grayscale(100%); /* Make the card black and white */
+    
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100%; /* One card per row on smaller screens */
+        padding: 1rem;
+    }
+
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03); /* Slight zoom out (5% larger) */
+    filter: grayscale(0%); /* Restore original color */
+}
+
+
+.card-text{
+    color: whitesmoke;
+    margin-top: 1.5rem;
+    /* background-color: green; */
+    /* padding: 1rem; */
+}
+
+
+.card-name-small{
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+}
+
+.card-name-small-para{
+    margin-top: -0.2rem;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+    font-size: 0.8rem;
+    text-transform: none;
+}
+
+.card-name-large{
+    margin-top: -0.3rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+}
+
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

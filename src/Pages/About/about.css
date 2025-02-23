@@ -1,0 +1,35 @@
+.about-section{
+    background-color: black;
+    /* border: 2px green solid; */
+    padding: 10rem;
+    display: flex;
+    gap: 2rem;
+}
+
+
+h1{
+    color: whitesmoke;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 1rem;
+    /* border: 2px solid aqua; */
+}
+
+
+/* .title-section{
+    border: 2px solid aqua;
+} */
+
+.video-section{
+    /* border: 2px solid blueviolet; */
+    width: 25rem;
+    height: 25rem;
+}
+
+video{
+    height: 100%;
+    border-radius: 1rem;
+
+}

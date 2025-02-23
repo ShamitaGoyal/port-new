@@ -1,0 +1,25 @@
+
+.disk-container{
+  position: relative;
+}
+
+.rotating-img {
+    /* border: 2px red solid; */
+    /* position: fixed; */
+    width: 8rem;
+    height: 8rem;
+    margin-left: 9.5rem;
+    position: absolute;
+    margin-top: -1.3rem;
+    animation: spin 4s linear infinite; /* Smooth infinite rotation */
+  }
+  
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
