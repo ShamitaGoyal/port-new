@@ -1,12 +1,16 @@
 import React from 'react'
 import './hero.css';
-import cover from '../../assets/imgs/cover4.png';
+import cover from '../../assets/imgs/change1.png';
 import Rotating from '../../Components/Rotating';
+import Smiski from '../../Components/Smiski';
+import Guppy from '../../Components/Guppy';
 
 function Hero() {
   return (
     <div className='hero-section'>
       <Rotating></Rotating>
+      <Smiski></Smiski>
+      <Guppy></Guppy>
       
         <div className="img-section">
             <div className="img-1">

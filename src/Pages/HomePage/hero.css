@@ -2,14 +2,20 @@
 .hero-section{
     /* background-color: green; */
     padding: 6rem;
+    /* height: 100vh; */
     /* margin-top: 7rem;
     margin-left: 15rem;
     margin-right: 18rem; */
     /* display: block; */
     background-color: black;
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuZGV2L3N2Z2pzIiB2aWV3Qm94PSIwIDAgNzAwIDcwMCIgd2lkdGg9IjcwMCIgaGVpZ2h0PSI3MDAiPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZ2dncmFpbi1ncmFkaWVudCIgcj0iMC41Ij4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iaHN2KDAsIDAlLCAwJSkiPjwvc3RvcD4KICAgICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9ImhzbCgwLCAwJSwgOSUpIj48L3N0b3A+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iaHNsYSgwLCAwJSwgMCUsIDEuMDApIj48L3N0b3A+CiAgICA8L3JhZGlhbEdyYWRpZW50PjxmaWx0ZXIgaWQ9ImdnZ3JhaW4tZmlsdGVyIiB4PSItMjAlIiB5PSItMjAlIiB3aWR0aD0iMTQwJSIgaGVpZ2h0PSIxNDAlIiBmaWx0ZXJVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHByaW1pdGl2ZVVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KICA8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMS4wNCIgbnVtT2N0YXZlcz0iMiIgc2VlZD0iMiIgc3RpdGNoVGlsZXM9InN0aXRjaCIgeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiByZXN1bHQ9InR1cmJ1bGVuY2UiPjwvZmVUdXJidWxlbmNlPgogIDxmZUNvbG9yTWF0cml4IHR5cGU9InNhdHVyYXRlIiB2YWx1ZXM9IjAiIHg9IjAlIiB5PSIwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgaW49InR1cmJ1bGVuY2UiIHJlc3VsdD0iY29sb3JtYXRyaXgiPjwvZmVDb2xvck1hdHJpeD4KICA8ZmVDb21wb25lbnRUcmFuc2ZlciB4PSIwJSIgeT0iMCUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGluPSJjb2xvcm1hdHJpeCIgcmVzdWx0PSJjb21wb25lbnRUcmFuc2ZlciI+CiAgICA8ZmVGdW5jUiB0eXBlPSJsaW5lYXIiIHNsb3BlPSIzIj48L2ZlRnVuY1I+CiAgICA8ZmVGdW5jRyB0eXBlPSJsaW5lYXIiIHNsb3BlPSIzIj48L2ZlRnVuY0c+CiAgICA8ZmVGdW5jQiB0eXBlPSJsaW5lYXIiIHNsb3BlPSIzIj48L2ZlRnVuY0I+CiAgPC9mZUNvbXBvbmVudFRyYW5zZmVyPgogIDxmZUNvbG9yTWF0cml4IHg9IjAlIiB5PSIwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgaW49ImNvbXBvbmVudFRyYW5zZmVyIiByZXN1bHQ9ImNvbG9ybWF0cml4MiIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjEgMCAwIDAgMAogICAgICAgICAgMCAxIDAgMCAwCiAgICAgICAgICAwIDAgMSAwIDAKICAgICAgICAgIDAgMCAwIDE5IC0xMSI+PC9mZUNvbG9yTWF0cml4PgogIDwvZmlsdGVyPjwvZGVmcz48Zz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dnZ3JhaW4tZ3JhZGllbnQpIj48L3JlY3Q+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idHJhbnNwYXJlbnQiIGZpbHRlcj0idXJsKCNnZ2dyYWluLWZpbHRlcikiIG9wYWNpdHk9IjEiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogc29mdC1saWdodCI+PC9yZWN0PjwvZz48L3N2Zz4=');
-    
+    /* border: 2px red solid; */
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 700 700" width="700" height="700"><defs><radialGradient id="gggrain-gradient" r="0.5"><stop offset="0%" stop-color="hsl(0, 2%, 33%)"></stop><stop offset="50%" stop-color="hsl(0, 0%, 17%)"></stop><stop offset="100%" stop-color="hsla(0, 0%, 0%, 1.00)"></stop></radialGradient><filter id="gggrain-filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.76" numOctaves="2" seed="187" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="turbulence"></feTurbulence><feColorMatrix type="saturate" values="0" x="0%" y="0%" width="100%" height="100%" in="turbulence" result="colormatrix"></feColorMatrix><feComponentTransfer x="0%" y="0%" width="100%" height="100%" in="colormatrix" result="componentTransfer"><feFuncR type="linear" slope="3"></feFuncR><feFuncG type="linear" slope="3"></feFuncG><feFuncB type="linear" slope="3"></feFuncB></feComponentTransfer><feColorMatrix x="0%" y="0%" width="100%" height="100%" in="componentTransfer" result="colormatrix2" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 16 -8"></feColorMatrix></filter></defs><g><rect width="100%" height="100%" fill="url(%23gggrain-gradient)"></rect><rect width="100%" height="100%" fill="transparent" filter="url(%23gggrain-filter)" opacity="0.79" style="mix-blend-mode: soft-light"></rect></g></svg>');    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
 }
+
+
 
 .header-section{
     display: flex;
@@ -26,7 +32,7 @@
 .header-section h2{
    font-weight: 200;
    text-transform: uppercase;
-   font-size: 1.2rem;
+   font-size: 1.5rem;
    padding-left: 0.5rem;
    margin-top: -1rem;
 }
@@ -72,9 +78,10 @@
 }
 
 .cover1 {
-    margin-top: -3rem;
-    width: 44rem; 
+    margin-top: -2rem;
+    width: max(55rem, 45vw);
     /* width: 56vw; */
     height: auto;
+
 }
 

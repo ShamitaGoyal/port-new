@@ -1,0 +1,23 @@
+.guppy-container{
+    /* border: 2px red solid; */
+    position: relative;
+}
+
+.guppy-img{
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    /* border: 2px red solid; */
+    left: 30rem;
+    top: 6rem;
+    animation: float2 3.2s ease-in-out infinite;
+    rotate: 6deg;
+
+}
+
+@keyframes float2{
+    50% {
+        transform: translateY(-8px) rotate(-4deg);
+    }
+
+}

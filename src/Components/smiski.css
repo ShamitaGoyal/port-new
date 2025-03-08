@@ -1,0 +1,22 @@
+.smiski-container{
+    /* border: 2px red solid; */
+    position: relative;
+}
+
+.smiski-img{
+    height: 14rem;
+    width: 14rem;
+    position: absolute;
+    /* border: 2px red solid; */
+    right: 10rem;
+    top: 24rem;
+    animation: float1 3.7s ease-in-out infinite;
+
+}
+
+@keyframes float1{
+    50% {
+        transform: translateY(-8px) rotate(-4deg);
+    }
+
+}

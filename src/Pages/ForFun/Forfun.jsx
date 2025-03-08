@@ -1,6 +1,7 @@
 import React from 'react'
 import '../ForFun/forfun.css'
 import projects from './forfunData'; 
+// import {group1} from '../../assets/imgs/grp3.jpg';
 
 
 function Forfun() {
@@ -16,22 +17,11 @@ function Forfun() {
         <h5>Selected artworks: </h5>
       </div>
 
-      <div className="card-container">
-              {projects.map((project, index) => (
-              <div key={index} className="col-md-4">
-                  <div className="card">
-                  <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      <img src={project.image} className="card-img" alt={project.title} />
-                  </a>
-                  <div className="card-text">
-                      <h5 className="card-name-small">{project.role}</h5>
-                      {/* <p className="card-name-small">{project.tools}</p> */}
-                      <p className="card-name-large">{project.title}</p>
-                      <h5 className="card-name-small-para">{project.description}</h5>
-                  </div>
-                  </div>
-              </div>
-              ))}
+      <div className="gallery">
+        <div className="gallery-sec1">
+          {/* <img src={group1} alt="group1" /> */}
+        </div>
+        <div className="gallery-sec2"></div>
       </div>
 
 

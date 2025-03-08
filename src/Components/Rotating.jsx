@@ -1,4 +1,4 @@
-import disk from "../assets/imgs/disk.png";
+import disk from "../assets/imgs/disk.svg";
 import "./rotating.css";
 
 export default function Rotating() {
