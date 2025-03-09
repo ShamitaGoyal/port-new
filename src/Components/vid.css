@@ -1,0 +1,16 @@
+.vid1-section{
+    /* border: 2px solid blueviolet; */
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 19rem;
+    top: 4rem;
+    
+}
+
+.vid1-section video{
+    height: 100%;
+    border-radius: 0.5rem;
+ 
+
+}

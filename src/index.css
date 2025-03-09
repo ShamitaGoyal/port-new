@@ -9,7 +9,16 @@ html, body{
   margin: 0;
   padding: 0;
   /* scroll-behavior: smooth; */
-  
 
 }
 
+
+body {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}

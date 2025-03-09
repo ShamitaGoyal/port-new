@@ -85,3 +85,38 @@
 
 }
 
+
+.img-part {
+    /* opacity: 0.5; */
+    transform: scale(0.8);
+    animation: fadeInExpand 5s forwards, float4 3.8s ease-in-out infinite;
+  }
+  
+  @keyframes fadeInExpand {
+    0% {
+      /* opacity: 0; */
+      transform: scale(0.8) rotate(2deg); /* Start with a small rotation */
+    }
+    25% {
+      transform: scale(0.9) rotate(-2deg); /* Subtle jiggle effect */
+    }
+    50% {
+      transform: scale(1.02) rotate(1deg); /* Slight scale up with subtle rotation */
+    }
+    75% {
+      transform: scale(1) rotate(-1deg); /* Slight scale with small reverse rotation */
+    }
+    100% {
+      /* opacity: 1; */
+      transform: scale(1) rotate(0deg); /* Final scale and no rotation */
+    }
+  }
+  
+
+  @keyframes float4{
+    70% {
+        transform: translateX(-6px) rotate(1deg)
+        
+    }
+
+}

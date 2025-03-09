@@ -8,7 +8,7 @@ function TopNavbar() {
       <div className="logo">SHAMITA GOYAL</div>
       <ul>
         <li><Link to="/#projects">WORK</Link></li>
-        <li><a href="/forfun">FOR FUN</a></li>
+        {/* <li><a href="/forfun">FOR FUN</a></li> */}
         <li><a href="/about">ABOUT</a></li>
         <li><a href="https://drive.google.com/file/d/1pAtWBGdDVD9gJ6dE0I_zvN1ykpRjjTGq/view?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a></li>
       </ul>

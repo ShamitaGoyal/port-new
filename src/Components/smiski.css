@@ -1,4 +1,4 @@
-.smiski-container{
+.smiski-container1{
     /* border: 2px red solid; */
     position: relative;
 }
@@ -10,13 +10,45 @@
     /* border: 2px red solid; */
     right: 10rem;
     top: 24rem;
-    animation: float1 3.7s ease-in-out infinite;
+    animation: float1 3.5s ease-in-out infinite;
 
 }
 
 @keyframes float1{
     50% {
-        transform: translateY(-8px) rotate(-4deg);
+        transform: translateY(-8px) rotate(-7deg);
     }
 
+}
+
+
+.smiski-container2{
+    /* border: 2px red solid; */
+    position: relative;
+}
+
+.smiski2-img{
+    height: 11rem;
+    width: 11rem;
+    rotate: 10deg;
+    position: absolute;
+    /* border: 2px red solid; */
+    right: 12rem;
+    top: -3rem;
+    animation: float1 3.5s ease-in-out infinite;
+}
+
+.threelines{
+    position: relative;
+}
+
+.threelines-img{
+    height: 4rem;
+    width: 4rem;
+    rotate: 10deg;
+    position: absolute;
+    /* border: 2px red solid; */
+    left: 16.5rem;
+    top: 29rem;
+    animation: float1 3.5s ease-in-out infinite;
 }
