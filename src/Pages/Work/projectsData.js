@@ -25,7 +25,7 @@ const projects = [
     image: mentor, 
     tools: "React • Typescript • Next.js • HTML • SASS",
     link: "./null.html",
-    description: "A dynamic web platform for beginner gardeners, integrating view of nearby gardens at UCSD."},
+    description: "A dynamic web platform for beginner gardeners, and nearby gardens at UCSD."},
 
   { 
     title: "UCSD DS3 Society", 
@@ -33,7 +33,7 @@ const projects = [
     image: ds3, 
     tools: "React • Typescript • Next.js • HTML • SASS",
     link: "./null.html",
-    description: "This project is about buiding different types of websites which i was really proud of making because it showed a lot of my skills." },
+    description: "Revamping the main data science student society website, consulting website, and hackathon website." },
 
   { 
     title: "Personal Portfolio", 
@@ -41,7 +41,7 @@ const projects = [
     image: shot, 
     tools: "React • Typescript • Next.js • HTML • SASS",
     link: "#",
-    description: "This project is about buiding different types of websites which i was really proud of making because it showed a lot of my skills." },
+    description: "Personal portfolio developed by me to display my projects" },
 
   { 
     title: "CatCar", 
@@ -49,7 +49,7 @@ const projects = [
     image: shot3, 
     tools: "React • Typescript • Next.js • HTML • SASS",
     link: "./null.html",
-    description: "This project is about buiding different types of websites which i was really proud of making because it showed a lot of my skills." },
+    description: "Developing the website for UC Merced's nonprofit car driving service." },
 
   { 
     title: "ProjectUp", 
@@ -57,7 +57,7 @@ const projects = [
     image: project1, 
     tools: "React • Typescript • Next.js • HTML • SASS",
     link: "https://github.com/acmucsd-projects/su24a-hack-team-1/tree/main" ,
-    description: "This project is about buiding different types of websites which i was really proud of making because it showed a lot of my skills."},
+    description: "A platform which allows UC students to post and find projects near them to build their resume."},
 
   { 
     title: "TravelTrendz 2024", 
@@ -65,7 +65,7 @@ const projects = [
     image: shot4, 
     tools: "React • Typescript • Next.js • HTML • SASS",
     link: "https://github.com/ShamitaGoyal/lab3-project",
-    description: "This project is about buiding different types of websites which i was really proud of making because it showed a lot of my skills." },
+    description: "Travel recommendation system with different filtering mechanisms." },
 
   { 
     title: "Bay Forecast", 
@@ -73,7 +73,7 @@ const projects = [
     image: shot6, 
     tools: "React • Typescript • Next.js • HTML • SASS",
     link: "https://github.com/ShamitaGoyal/lab4-project" ,
-    description: "This project is about buiding different types of websites which i was really proud of making because it showed a lot of my skills."},
+    description: "App that shows the weather forecast for bay area cities."},
   
   { 
     title: "San Francisco Rainfall", 
@@ -81,7 +81,7 @@ const projects = [
     image: shot7, 
     tools: "React • Typescript • Next.js • HTML • SASS",
     link: "https://github.com/ShamitaGoyal/lab2-project",
-    description: "This project is about buiding different types of websites which i was really proud of making because it showed a lot of my skills." }
+    description: "San Francisco rainfall anyalsis from years 1850-2023." }
 ];
 
 export default projects;

@@ -1,10 +1,10 @@
 // import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from './Pages/HomePage/Homepage';
-import Forfun from './Pages/ForFun/Forfun';
+// import Forfun from './Pages/ForFun/Forfun';
 import About from './Pages/About/About';
-import TopNavbar from './Components/TopNavBar'
-import Footer from './Components/Footer';
+import TopNavbar from './Components/TopNavBar/TopNavBar'
+import Footer from './Components/Footer/Footer';
 
 function App() {
   

@@ -50,5 +50,13 @@
     /* border: 2px red solid; */
     left: 16.5rem;
     top: 29rem;
-    animation: float1 3.5s ease-in-out infinite;
+    animation: float8 3.5s ease-in-out infinite;
 }
+
+@keyframes float8{
+    50% {
+        transform: translateY(-8px) rotate(-5deg);
+    }
+
+}
+

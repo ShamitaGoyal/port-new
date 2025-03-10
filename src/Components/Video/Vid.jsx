@@ -1,6 +1,6 @@
 import React from 'react'
-import vid from '../assets/imgs/vid1.mp4'
-import './vid.css';
+import vid from '../../assets/imgs/vid1.mp4'
+import '../Video/vid.css';
 
 
 

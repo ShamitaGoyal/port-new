@@ -1,5 +1,6 @@
-import guppy from "../assets/imgs/guppy.svg";
-import "./guppy.css";
+import guppy from "../../assets/imgs/guppy.svg";
+import "../Guppy/guppy.css"
+
 export default function Guppy() {
   return (
     <div className="guppy-container">

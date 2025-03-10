@@ -1,7 +1,8 @@
-import smiski from "../assets/imgs/smiski1.svg";
-import smiski2 from "../assets/imgs/smiski2.svg"
-import threelines from "../assets/imgs/threelines.svg"
-import "./smiski.css";
+import smiski from "../../assets/imgs/smiski1.svg";
+import smiski2 from "../../assets/imgs/smiski2.svg"
+import threelines from "../../assets/imgs/threelines.svg"
+import "../Smiski-threelines/smiski.css";
+
 export default function Smiski() {
   return (
     <>

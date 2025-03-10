@@ -1,10 +1,10 @@
 import React from 'react'
 import './hero.css';
 import cover from '../../assets/imgs/portpic.svg';
-import Rotating from '../../Components/Rotating';
-import Smiski from '../../Components/Smiski';
-import Guppy from '../../Components/Guppy';
-import Vid from '../../Components/Vid'
+import Rotating from '../../Components/Rotating-Disk/Rotating';
+import Smiski from '../../Components/Smiski-threelines/Smiski';
+import Guppy from '../../Components/Guppy/Guppy';
+import Vid from '../../Components/Video/Vid'
 
 
 function Hero() {
@@ -33,6 +33,7 @@ function Hero() {
             {/* <h1>Shamita Goyal</h1> */}
             {/* <h4>Passionate about the interconnections of software development, frontend development, and web development</h4>
             <button className="bt1" onClick={() => window.location.href = "#about-me-section"}>Learn More</button> */}
+            {/* <h4>Developed by Shamita </h4> */}
         </div>
     </div>
   )
