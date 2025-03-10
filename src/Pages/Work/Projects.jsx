@@ -21,9 +21,10 @@ const Projects = () => {
                       <img src={project.image} className="card-img" alt={project.title} />
                   </a>
                   <div className="card-text">
-                      <h5 className="card-name-small">{project.role}</h5>
+                      {/* <h5 className="card-name-small">{project.role}</h5> */}
                       {/* <p className="card-name-small">{project.tools}</p> */}
                       <p className="card-name-large">{project.title}</p>
+                      <p className="card-name-tools">{project.tools}</p>
                       <h5 className="card-name-small-para">{project.description}</h5>
                   </div>
                   </div>

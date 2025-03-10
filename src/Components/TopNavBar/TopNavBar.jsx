@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../TopNavBar/topnavbar.css';
+import resume from '../../assets/imgs/swe-2ver.pdf'
 
 function TopNavbar() {
   return (
@@ -10,7 +11,7 @@ function TopNavbar() {
         <li><Link to="/#projects">WORK</Link></li>
         {/* <li><a href="/forfun">FOR FUN</a></li> */}
         <li><a href="/about">ABOUT</a></li>
-        <li><a href="https://drive.google.com/file/d/1pAtWBGdDVD9gJ6dE0I_zvN1ykpRjjTGq/view?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a></li>
+        <li><a href={resume} target="_blank" rel="noopener noreferrer">RESUME</a></li>
       </ul>
     </nav>
   );
