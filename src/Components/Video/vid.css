@@ -3,7 +3,7 @@
     width: 10rem;
     height: 10rem;
     position: absolute;
-    left: 19rem;
+    left: 15%;
     top: 4rem;
     
 }
@@ -11,6 +11,5 @@
 .vid1-section video{
     height: 100%;
     border-radius: 0.5rem;
- 
 
 }

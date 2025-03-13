@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.css';
-import cover from '../../assets/imgs/change2.png';
+import cover from '../../assets/imgs/change2.webp';
 import Rotating from '../../Components/Rotating-Disk/Rotating';
 import Smiski from '../../Components/Smiski-threelines/Smiski';
 import Guppy from '../../Components/Guppy/Guppy';

@@ -82,7 +82,8 @@
 .cover1 {
     margin-top: -2rem;
     width: max(56rem, 45vw);
-    /* width: 56vw; */
+    /* width: clamp(450px, 65vw, 1600px); */
+        /* width: 56vw; */
     height: auto;
 
 }
@@ -92,6 +93,11 @@
     /* opacity: 0.5; */
     transform: scale(0.8);
     animation: fadeInExpand 5s forwards, float4 3.8s ease-in-out infinite;
+    /* background-color: red; */
+    width: fit-content;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    position: relative;
   }
   
   @keyframes fadeInExpand {
@@ -122,3 +128,13 @@
     }
 
 }
+
+
+/* @media only screen and (max-width: 656px){
+  .img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+  }
+} */

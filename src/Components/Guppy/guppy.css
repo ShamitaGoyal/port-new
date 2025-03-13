@@ -1,15 +1,12 @@
-.guppy-container{
-    /* border: 2px red solid; */
-    position: relative;
-}
+
 
 .guppy-img{
     height: 7rem;
-    width: 7rem;
+    /* width: 7rem; */
     position: absolute;
     /* border: 2px red solid; */
-    left: 30rem;
-    top: 6rem;
+    left: 38%;
+    top: 10%;
     animation: float2 3.2s ease-in-out infinite;
     rotate: 6deg;
 

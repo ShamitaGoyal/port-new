@@ -1,15 +1,12 @@
-.smiski-container1{
-    /* border: 2px red solid; */
-    position: relative;
-}
+
 
 .smiski-img{
-    height: 14rem;
-    width: 14rem;
+    height: 14em;
+    /* width: 14rem; */
     position: absolute;
     /* border: 2px red solid; */
-    right: 10rem;
-    top: 24rem;
+    right: -1%;
+    bottom: -2%;
     animation: float1 3.5s ease-in-out infinite;
 
 }
@@ -22,25 +19,17 @@
 }
 
 
-.smiski-container2{
-    /* border: 2px red solid; */
-    position: relative;
-}
-
 .smiski2-img{
     height: 11rem;
-    width: 11rem;
+    /* width: 11rem; */
     rotate: 10deg;
     position: absolute;
     /* border: 2px red solid; */
-    right: 12rem;
-    top: -3rem;
-    animation: float1 3.5s ease-in-out infinite;
+    right: 2%;
+    top: -5%;
+    animation: float9 4s ease-in-out infinite;
 }
 
-.threelines{
-    position: relative;
-}
 
 .threelines-img{
     height: 4rem;
@@ -48,14 +37,21 @@
     rotate: 10deg;
     position: absolute;
     /* border: 2px red solid; */
-    left: 16.5rem;
-    top: 29rem;
+    left: 9%;
+    bottom: 8%;
     animation: float8 3.5s ease-in-out infinite;
 }
 
 @keyframes float8{
     50% {
         transform: translateY(-8px) rotate(-5deg);
+    }
+
+}
+
+@keyframes float9{
+    50% {
+        transform: translateY(-8px) rotate(-8deg);
     }
 
 }

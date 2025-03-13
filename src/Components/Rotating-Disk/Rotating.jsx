@@ -1,10 +1,9 @@
-import disk from "../../assets/imgs/disk.svg";
+import disk from "../../assets/imgs/disk.webp";
 import "../Rotating-Disk/rotating.css";
 
 export default function Rotating() {
   return (
-    <div className="disk-container">
-      <img src={disk} alt="Rotating" className="rotating-img" />
-    </div>
+  <img src={disk} alt="Rotating" className="rotating-img" />
+  
   );
 }
