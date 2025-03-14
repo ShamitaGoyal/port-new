@@ -6,7 +6,7 @@ import resume from '../../assets/imgs/swe-2ver.pdf'
 function TopNavbar() {
   return (
     <nav className='top-navbar'>
-      <div className="logo">SHAMITA GOYAL</div>
+      <li><a href="/"><div className="logo">SHAMITA GOYAL</div></a></li>
       <ul>
         <li><Link to="/#projects">WORK</Link></li>
         {/* <li><a href="/forfun">FOR FUN</a></li> */}

@@ -5,6 +5,7 @@ import Homepage from './Pages/HomePage/Homepage';
 import About from './Pages/About/About';
 import TopNavbar from './Components/TopNavBar/TopNavBar'
 import Footer from './Components/Footer/Footer';
+import HoverEffect from "./Components/HoverEffect";
 
 function App() {
   

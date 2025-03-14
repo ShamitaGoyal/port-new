@@ -1,13 +1,13 @@
 // Import images
-import dco from '../../assets/imgs/dco.png';
-import mentor from '../../assets/imgs/p-mentor.png';
-import ds3 from '../../assets/imgs/ds3.png';
-import shot from '../../assets/imgs/portfolio.png';
-import shot3 from '../../assets/imgs/catcar.png';
-import project1 from '../../assets/imgs/projectup.png';
-import shot4 from '../../assets/imgs/traveltrendz.png';
-import shot6 from '../../assets/imgs/weather.png';
-import shot7 from '../../assets/imgs/rainfall.png';
+import dco from '../../assets/imgs/dco.webp';
+import mentor from '../../assets/imgs/p-mentor.webp';
+import ds3 from '../../assets/imgs/ds3.webp';
+import shot from '../../assets/imgs/portfolio.webp';
+import shot3 from '../../assets/imgs/catcar.webp';
+import project1 from '../../assets/imgs/projectup.webp';
+import shot4 from '../../assets/imgs/traveltrendz.webp';
+import shot6 from '../../assets/imgs/weather.webp';
+import shot7 from '../../assets/imgs/rainfall.webp';
 
 const projects = [
   { 
@@ -73,7 +73,7 @@ const projects = [
     image: shot6, 
     tools: " Python, Multi-threading, Multi-processing, APIs, tkinter",
     link: "https://github.com/ShamitaGoyal/lab4-project" ,
-    description: "A Bay Area weather forecast app that uses multi-threading and multi-processing for fast API calls."},
+    description: "A weather forecast program for Bay Area cities that compares multithreading vs. multiprocessing for speed."},
   
   { 
     title: "San Francisco Rainfall", 
