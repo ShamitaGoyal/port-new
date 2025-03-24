@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../TopNavBar/topnavbar.css';
-import resume from '../../assets/imgs/swe-2ver.pdf'
+import resume from '../../assets/imgs/swe-24.pdf'
 
 function TopNavbar() {
   return (
