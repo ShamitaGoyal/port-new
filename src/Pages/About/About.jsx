@@ -24,7 +24,7 @@ function About() {
       </div>
 
       <div className="video-section">
-        <video src={sampleVideo} autoPlay loop muted/>
+        <video className='video2' src={sampleVideo} autoPlay loop muted/>
       </div>
 
 

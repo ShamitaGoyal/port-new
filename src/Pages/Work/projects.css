@@ -18,17 +18,21 @@
 }
 
 .project-header h1 {
-    font-size: 5rem;
+    /* font-size: 5rem; */
+    font-size: clamp(3.2rem, 5.5vw, 7rem);
     font-weight: 500;
 }
 
 .project-header h3 {
     font-size: 1.4rem;
+    font-size: clamp(1rem, 1.5vw, 4rem);
     font-weight: 300;
+    margin-top: -0.1rem;
 }
 
 
 .card-container{
+    /* margin-top: -2.5rem; */
 
     padding-top: 5rem;
     /* background-color: aquamarine; */

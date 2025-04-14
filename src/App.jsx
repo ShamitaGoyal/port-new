@@ -1,4 +1,4 @@
-// import './App.css'
+import './app.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from './Pages/HomePage/Homepage';
 // import Forfun from './Pages/ForFun/Forfun';
@@ -6,14 +6,14 @@ import About from './Pages/About/About';
 import TopNavbar from './Components/TopNavBar/TopNavBar'
 import Footer from './Components/Footer/Footer';
 import HoverEffect from "./Components/HoverEffect";
+import Hamburger from "./Components/Hamburger/Hamburger";
 
 function App() {
-  
-
   return (
     <>
     <Router>
       <TopNavbar></TopNavbar>
+      <Hamburger></Hamburger>
       <Routes>
         <Route path="/" element={<Homepage/>} />
         {/* <Route path="/work" element={<Homepage/>} /> */}

@@ -1,0 +1,23 @@
+.hamburger {
+    display: none;
+  }
+
+
+  
+@media (max-width: 580px) {
+    .hamburger {
+      display: block;
+    }
+
+    header ul li{
+      display: none;
+    }
+
+    .topbar-title{
+        padding:0;
+        margin-top: 2%;
+    }
+
+
+  }
+

@@ -1,42 +1,53 @@
 import React from 'react'
 import './hero.css';
-import cover from '../../assets/imgs/change2.webp';
-import Rotating from '../../Components/Rotating-Disk/Rotating';
-import Smiski from '../../Components/Smiski-threelines/Smiski';
-import Guppy from '../../Components/Guppy/Guppy';
-import Vid from '../../Components/Video/Vid'
+import port from './../../assets/imgs/change2.webp'
+import smiski1 from './../../assets/imgs/smiski1.webp'
+import smiski2 from './../../assets/imgs/smiski2.webp'
+import disk from './../../assets/imgs/disk.webp'
+import guppy from './../../assets/imgs/guppy.webp'
+import threelines from './../../assets/imgs/threelines.svg'
+import vid from './../../assets/imgs/vid1.mp4'
+import './heroanimations.css'
+
 
 
 function Hero() {
   return (
-    <div className='hero-section'>
+    // <div className='hero-section'>
       
-      <section className='img-part'>
-        <Vid></Vid>
-        <Rotating></Rotating>
-        <Smiski></Smiski>
-        <Guppy></Guppy>
+    //   <section className='img-part'>
+    //     <Vid></Vid>
+    //     <Rotating></Rotating>
+    //     <Smiski></Smiski>
+    //     <Guppy></Guppy>
+    //     <div className="img-section">
+    //       <div className="img-1">
+    //         <img className='cover1' src={cover} alt="Cover image" />
+    //       </div>
+    //     </div>
+    //   </section>
 
-        
-          <div className="img-section">
-              <div className="img-1">
-                  <img className='cover1' src={cover} alt="Cover image" />
-              </div>
-          </div>
-
-      </section>
+    //   <div className="header-section">
+    //     <h2>product designer + web developer </h2>
+    //   </div>
+    // </div>
 
 
-
-        <div className="header-section">
-            <h2>product designer + web developer </h2>
-            {/* <h1>Shamita Goyal</h1> */}
-            {/* <h4>Passionate about the interconnections of software development, frontend development, and web development</h4>
-            <button className="bt1" onClick={() => window.location.href = "#about-me-section"}>Learn More</button> */}
-            {/* <h4>Developed by Shamita </h4> */}
-        </div>
+  <section className='main-hero'>
+    <div class="main-wrapper">
+        <img className="port-bg" src={port} alt=""/>
+        <img className="smiski1-img" src={smiski1} alt=""/>
+        <img className="smiski2-img" src={smiski2} alt=""/>
+        <img className="vinyl-img" src={disk} alt=""/>
+        <img className="gup-img" src={guppy} alt=""/>
+        <img className="threelines-img" src={threelines} alt=""/>
+        <video className='video1' src={vid} autoPlay loop muted></video>
     </div>
+    <h3 className='text-title'>Product Designer + Web Develepor</h3>
+
+</section>
   )
 }
 
 export default Hero;
+
