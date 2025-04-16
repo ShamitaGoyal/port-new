@@ -41,7 +41,7 @@ function Hero() {
         <img className="vinyl-img" src={disk} alt=""/>
         <img className="gup-img" src={guppy} alt=""/>
         <img className="threelines-img" src={threelines} alt=""/>
-        <video className='video1' src={vid} autoPlay loop muted></video>
+        <video className='video1' src={vid} muted autoPlay playsInline loop></video>
     </div>
     <h3 className='text-title'>Product Designer + Web Develepor</h3>
 

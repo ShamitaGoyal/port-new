@@ -10,6 +10,11 @@
   
 }
 
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
 
 .main-wrapper{
   position: relative;
@@ -27,6 +32,7 @@
   height: auto;
   width: 100%;
 }
+
 
 
 
