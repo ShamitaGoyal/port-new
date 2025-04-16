@@ -15,7 +15,6 @@
   position: relative;
   /* background-color: aqua; */
   width: min(90%, 600px);
-
   margin: 1.5rem auto;
   animation: float5 3.6s ease-in-out infinite;
   /* border: 2px solid red; */
@@ -93,7 +92,6 @@
   text-transform: uppercase;
   /* font-size: clamp(0.7rem, 1.8vw, 3rem); */
   font-size: clamp(0.7rem, 2.8vw, 3rem);
-
   text-align: center;
   margin-top: -1rem;
   
@@ -123,35 +121,9 @@ Large screens	Will max out at 3rem (and won’t get bigger) */
 
 
 
-/* :root {
-  --desktop-size: 1024px;
-  --sePhone-size: 320px;
-  --smallphone-size: 448px;
-  --tablet-size: 658px;
-
-
-} */
-
-
-/* @media (max-width:448px){
-  .main-wrapper{
-    width: 90vw;
-    border: 3px red solid;
-
-  }
-
-} */
-
-/* @media (max-width: 678px){
-  .main-wrapper{
-    width: 80vw;
-}
-}
-
- */
-
  @media (min-width: 693px) {
   .main-wrapper {
+    /* background-color: rebeccapurple; */
     width: min(90%, 750px);
   }
 }
@@ -164,12 +136,12 @@ Large screens	Will max out at 3rem (and won’t get bigger) */
 
 @media (min-width: 925px) {
   .main-wrapper {
-    width: min(90%, 1000px);
+    width: min(90%, 850px);
   }
 }
 
 @media (min-width: 1142px) {
   .text-title {
-    font-size: clamp(1.5rem, 2.8vw, 2rem);
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
   }
 }
