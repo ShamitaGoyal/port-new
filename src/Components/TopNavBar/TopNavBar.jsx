@@ -2,12 +2,10 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../TopNavBar/topnavbar.css';
 import resume from '../../assets/imgs/swe-24.pdf'
-import Hamburger from './../Hamburger/Hamburger'
 
 function TopNavbar() {
   return (
     <>
-    {/* <Hamburger/> */}
     <header>
       <a href="/" className="topbar-title">Shamita Goyal</a>
       <ul class="topbar-links">

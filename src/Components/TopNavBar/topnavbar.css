@@ -4,13 +4,9 @@ header {
     align-items: center;
     padding: 0 2rem 0rem 2rem;
     /* background-color: #2B2C2E; */
-    margin-top: 2%;
+    margin-top: 1%;
   }
 
-
-  /* .hamburger {
-    display: none;
-  } */
 
 .topbar-title {
     color: white;
@@ -21,6 +17,7 @@ header {
     /* margin-top: 1rem; */
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
 
 }
 /* 
@@ -32,6 +29,7 @@ header ul {
     display: flex;
     list-style: none;
     gap: 1.2rem;
+    margin-top: 0.7rem;
   }
 
 header ul li {
@@ -51,25 +49,10 @@ header ul li a{
     opacity: 0.5;
   }
 
-
-
-
-  /* @media (max-width: 768px) {
-    .hamburger {
-      display: block;
-    }
-
-    header ul li{
-      display: none;
-    }
-
-
-  } */
-
-  @media (max-width: 450px){
+  @media (max-width: 580px){
     .topbar-title{
        /* background-color: rebeccapurple; */
        font-size: 1rem;
-       margin-top: 1.5rem;
+       margin-top: 1rem;
     }
 }

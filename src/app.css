@@ -1,11 +1,12 @@
-.hamburger {
+.menu-toggle {
     display: none;
+    margin-top: -0.5rem;
   }
 
 
   
 @media (max-width: 580px) {
-    .hamburger {
+    .menu-toggle {
       display: block;
     }
 
@@ -13,10 +14,6 @@
       display: none;
     }
 
-    .topbar-title{
-        padding:0;
-        margin-top: 2%;
-    }
 
 
   }

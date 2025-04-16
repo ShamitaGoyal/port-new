@@ -5,15 +5,14 @@ import Homepage from './Pages/HomePage/Homepage';
 import About from './Pages/About/About';
 import TopNavbar from './Components/TopNavBar/TopNavBar'
 import Footer from './Components/Footer/Footer';
-import HoverEffect from "./Components/HoverEffect";
-import Hamburger from "./Components/Hamburger/Hamburger";
+import HamburgerMenu from './Components/Hamburger/HamburgerMenu';
 
 function App() {
   return (
     <>
     <Router>
       <TopNavbar></TopNavbar>
-      <Hamburger></Hamburger>
+      <HamburgerMenu></HamburgerMenu>
       <Routes>
         <Route path="/" element={<Homepage/>} />
         {/* <Route path="/work" element={<Homepage/>} /> */}
