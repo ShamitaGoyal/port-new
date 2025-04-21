@@ -34,7 +34,7 @@ function Hero() {
 
 
   <section className='main-hero'>
-    <div class="main-wrapper">
+    <div className="main-wrapper">
         <img className="port-bg" src={port} alt=""/>
         <img className="smiski1-img" src={smiski1} alt=""/>
         <img className="smiski2-img" src={smiski2} alt=""/>

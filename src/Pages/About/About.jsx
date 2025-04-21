@@ -1,11 +1,13 @@
 import React from 'react'
 import '../About/about.css'
 import sampleVideo from '../../assets/imgs/catwalk.mp4'
+import selfie from '../../assets/imgs/selfie.png'
+
 
 
 function About() {
   return (
-    <div className='about-section'>
+    <section className='about-section'>
       <div className="title-section">
         <h1>Hi! I'm Shamita <i class="ri-sparkling-fill"></i></h1>
         <div className="para-text">
@@ -18,18 +20,18 @@ function About() {
           <p>When I'm not developing, you'll find me cooking, drawing, or listening to music.
              I also enjoy capturing moments with my digital camera and creating nostalgic edits of my friends.
           </p>
-
         </div>
 
       </div>
 
       <div className="video-section">
-        <video className='video2' src={sampleVideo} autoPlay loop muted/>
+        {/* <video className='video2' src={sampleVideo} autoPlay loop muted/> */}
+        <img className='video2' src={selfie} alt="" />
       </div>
 
 
 
-    </div>
+    </section>
   )
 }
 
