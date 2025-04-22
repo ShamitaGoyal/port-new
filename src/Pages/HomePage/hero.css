@@ -105,7 +105,7 @@ img {
 
 .video1{
   width: 28%;
-  height: fit-content;
+  /* height: fit-content; */
   position: absolute;
   top: 16%;
   left: 15%;
