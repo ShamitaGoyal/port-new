@@ -10,17 +10,19 @@ import HamburgerMenu from './Components/Hamburger/HamburgerMenu';
 function App() {
   return (
     <>
-    <Router>
-      <TopNavbar></TopNavbar>
-      <HamburgerMenu></HamburgerMenu>
-      <Routes>
-        <Route path="/" element={<Homepage/>} />
-        {/* <Route path="/work" element={<Homepage/>} /> */}
-        {/* <Route path="/forfun" element={<Forfun/>} /> */}
-        <Route path="/about" element={<About/>} />
-      </Routes>
-      <Footer></Footer>
-    </Router>
+    <div className="app">
+      <Router>
+        <TopNavbar></TopNavbar>
+        <HamburgerMenu></HamburgerMenu>
+        <Routes>
+          <Route path="/" element={<Homepage/>} />
+          {/* <Route path="/work" element={<Homepage/>} /> */}
+          {/* <Route path="/forfun" element={<Forfun/>} /> */}
+          <Route path="/about" element={<About/>} />
+        </Routes>
+        <Footer></Footer>
+      </Router>
+    </div>
 
     </>
   )

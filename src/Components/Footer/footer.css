@@ -1,10 +1,10 @@
 footer {
+  margin-top: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem 0 2rem;
     /* background-color: #2B2C2E; */
-    margin-top: 5%;
   }
 
 .footer-title {
@@ -71,4 +71,11 @@ footer ul li a:hover{
         margin: 0;
 
     }
+}
+
+@media (min-width: 1475px){
+  footer{
+   
+
+  }
 }
