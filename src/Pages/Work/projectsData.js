@@ -4,6 +4,7 @@ import mentor from '../../assets/imgs/p-mentor.webp';
 import ds3 from '../../assets/imgs/ds3.webp';
 import shot from '../../assets/imgs/portfolio.webp';
 import tball from '../../assets/imgs/tball.webp';
+import upgrade from '../../assets/imgs/upgrade.png';
 import project1 from '../../assets/imgs/projectup.webp';
 import shot4 from '../../assets/imgs/traveltrendz.webp';
 import shot6 from '../../assets/imgs/weather.webp';
@@ -18,10 +19,18 @@ const projects = [
     link: "https://ucsddesign.co/",
     description: "Creating interactive websites for UC San Diego's largest pre-professional design community events."
   },
+  { 
+    title: "UpGrade",
+    role: "Web Developer", 
+    image: upgrade, 
+    tools: "React, Typescript, SASS, Radix UI",
+    link: "https://upgrade25.ucsddesign.co/",
+    description: "UP-Grade is a 10-week mentor-led program where students solve real product challenges and build industry-ready design skills."
+  },
 
   { 
     title: "Triton Ball",
-    role: "Web Developer", 
+    role: "Frontend Developer", 
     image: tball, 
     tools: "React, Typescript, HTML, CSS, Shadcn",
     link: "https://www.tritonball.org/",
@@ -41,7 +50,7 @@ const projects = [
     title: "DS3 Society", 
     role: "Software Developer", 
     image: ds3, 
-    tools: "React, Typescript, Tailwind CSS",
+    tools: "React, Typescript, Tailwind CSS, DaisyUI, MongoDB",
     link: "https://www.ds3ucsd.com/",
     description: "Revamping the main, consulting, and hackathon websites for the data science student society." },
 
