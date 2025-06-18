@@ -3,7 +3,7 @@ import dco from '../../assets/imgs/dco.webp';
 import mentor from '../../assets/imgs/p-mentor.webp';
 import ds3 from '../../assets/imgs/ds3.webp';
 import shot from '../../assets/imgs/portfolio.webp';
-import shot3 from '../../assets/imgs/catcar.webp';
+import tball from '../../assets/imgs/tball.webp';
 import project1 from '../../assets/imgs/projectup.webp';
 import shot4 from '../../assets/imgs/traveltrendz.webp';
 import shot6 from '../../assets/imgs/weather.webp';
@@ -16,16 +16,26 @@ const projects = [
     image: dco, 
     tools: "React, Typescript, Next.js, HTML, SASS",
     link: "https://ucsddesign.co/",
-    description: "Creating interactive websites for UCSD's largest pre-professional design community events."
+    description: "Creating interactive websites for UC San Diego's largest pre-professional design community events."
   },
+
+  { 
+    title: "Triton Ball",
+    role: "Web Developer", 
+    image: tball, 
+    tools: "React, Typescript, HTML, CSS, Shadcn",
+    link: "https://www.tritonball.org/",
+    description: "Triton Ball, a site for a UC San Diego's sports analytics club to share stats & games through data science."
+  },
+
 
   { 
     title: "ACM x Hacks Projects", 
     role: "Project Mentor", 
     image: mentor, 
     tools: "React, ExpressJS, Node.js, HTML, MongoDB, CSS, Figma",
-    link: "https://www.figma.com/design/qInsM9vo3HplH9n6Iaigpq/(4)-HIGH-FI-FIDELITY-PROTOTYPING?node-id=0-1&p=f&t=6CgGRGpiSTeAl3Kn-0",
-    description: "A dynamic web platform for beginner gardeners and local gardens at UCSD."},
+    link: "https://solanum.vercel.app/",
+    description: "A dynamic web platform for beginner gardeners and local gardens at UC San Diego."},
 
   { 
     title: "DS3 Society", 
@@ -42,14 +52,6 @@ const projects = [
     tools: "React, HTML, CSS, Figma",
     link: "#",
     description: "Personal portfolio showcasing my projects, developed by me." },
-
-  { 
-    title: "CatCar", 
-    role: "Software Developer Intern", 
-    image: shot3, 
-    tools: "React, Typescript, Next.js, HTML, SASS",
-    link: "./null.html",
-    description: "Developing the website for UC Merced's nonprofit car driving service." },
 
   { 
     title: "ProjectUp", 
