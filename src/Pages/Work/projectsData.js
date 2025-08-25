@@ -9,8 +9,17 @@ import project1 from '../../assets/imgs/projectup.webp';
 import shot4 from '../../assets/imgs/traveltrendz.webp';
 import shot6 from '../../assets/imgs/weather.webp';
 import shot7 from '../../assets/imgs/rainfall.webp';
+import meridian from '../../assets/imgs/meridian.webp';
 
 const projects = [
+  { 
+    title: "Foundation Interface Lab",
+    role: "Software Developer Research Intern", 
+    image: meridian, 
+    tools: "Next.js, Typescript, SASS, Tailwind CSS, Firebase",
+    link: "https://github.com/meridian-ui/meridian",
+    description: "Testing, building, and refining Meridian, a design framework for creating customizable overview-detail interfaces (ODIs) that bridge designers, developers, and end-users."
+  },
   { 
     title: "Design Co",
     role: "Web Developer", 
