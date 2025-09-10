@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './hamburgermenu.css';
 import { Slant as Hamburger } from 'hamburger-react';
-import resume from '../../assets/imgs/shamita-swe-resume.pdf'
+import resume from '../../assets/shamita-swee.pdf'
 
 export default function HamburgerMenu() {
   const [isOpen, setOpen] = useState(false);

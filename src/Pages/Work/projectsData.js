@@ -1,15 +1,15 @@
 // Import images
-import dco from '../../assets/imgs/dco.webp';
-import mentor from '../../assets/imgs/p-mentor.webp';
-import ds3 from '../../assets/imgs/ds3.webp';
-import shot from '../../assets/imgs/portfolio.webp';
-import tball from '../../assets/imgs/tball.webp';
-import upgrade from '../../assets/imgs/upgrade.png';
-import project1 from '../../assets/imgs/projectup.webp';
-import shot4 from '../../assets/imgs/traveltrendz.webp';
-import shot6 from '../../assets/imgs/weather.webp';
-import shot7 from '../../assets/imgs/rainfall.webp';
-import meridian from '../../assets/imgs/meridian.webp';
+import dco from '../../assets/Projects/dco.webp';
+import mentor from '../../assets/Projects/p-mentor.webp';
+import ds3 from '../../assets/Projects/ds3.webp';
+import shot from '../../assets/Projects/portfolio.webp';
+import tball from '../../assets/Projects/tball.webp';
+import upgrade from '../../assets/Projects/upgrade.png';
+import project1 from '../../assets/Projects/projectup.webp';
+import shot4 from '../../assets/Projects/traveltrendz.webp';
+import shot6 from '../../assets/Projects/weather.webp';
+import shot7 from '../../assets/Projects/rainfall.webp';
+import meridian from '../../assets/Projects/meridian.webp';
 
 const projects = [
   { 

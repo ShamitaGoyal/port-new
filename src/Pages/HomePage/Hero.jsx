@@ -1,12 +1,12 @@
 import React from 'react'
 import './hero.css';
-import port from './../../assets/imgs/change2.webp'
-import smiski1 from './../../assets/imgs/smiski1.webp'
-import smiski2 from './../../assets/imgs/smiski2.webp'
-import disk from './../../assets/imgs/disk.webp'
-import guppy from './../../assets/imgs/guppy.webp'
-import threelines from './../../assets/imgs/threelines.svg'
-import vid from './../../assets/imgs/vid1.mp4'
+import port from './../../assets/Homepage/change2.webp'
+import smiski1 from './../../assets/Homepage/smiski1.webp'
+import smiski2 from './../../assets/Homepage/smiski2.webp'
+import disk from './../../assets/Homepage/disk.webp'
+import guppy from './../../assets/Homepage/guppy.webp'
+import threelines from './../../assets/Homepage/threelines.svg'
+import vid from './../../assets/Homepage/vid1.mp4'
 import './heroanimations.css'
 
 

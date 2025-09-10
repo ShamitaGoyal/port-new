@@ -1,11 +1,11 @@
 import React from 'react'
 import '../About/about.css'
-import sampleVideo from '../../assets/imgs/catwalk.mp4'
-import selfie from '../../assets/imgs/ab.png'
-import content from '../../assets/imgs/ab2.png'
-import cafeVid from '../../assets/imgs/cafe.mp4'
-import matcha from '../../assets/imgs/matcha.png'
-import mngo from '../../assets/imgs/mngo.png'
+// import sampleVideo from '../../assets/About/catwalk.mp4'
+import selfie from '../../assets/About/ab.png'
+import content from '../../assets/About/ab2.png'
+import cafeVid from '../../assets/About/cafe.mp4'
+import matcha from '../../assets/About/matcha.png'
+import mngo from '../../assets/About/mngo.png'
 
 
 
