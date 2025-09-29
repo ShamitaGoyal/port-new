@@ -33,7 +33,7 @@ const projects = [
     role: "Web Developer", 
     image: upgrade, 
     tools: "React, Typescript, SASS, Radix UI",
-    link: "https://upgrade25.ucsddesign.co/",
+    link: "https://upgrade25.designatucsd.com/",
     description: "UP-Grade is a 10-week mentor-led program where students solve real product challenges and build industry-ready design skills."
   },
 
