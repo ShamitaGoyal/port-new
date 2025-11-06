@@ -1,5 +1,3 @@
-
-
 .project-section {
     /* border: 2px red solid; */
     margin-top: 10rem;
@@ -31,7 +29,7 @@
 }
 
 
-.card-container{
+.card-container {
     /* margin-top: -2.5rem; */
     margin-top: clamp(1.5rem, 2vw, 3rem);
     /* background-color: aquamarine; */
@@ -54,13 +52,14 @@
     flex-direction: column;
 }
 
-.card{
+.card {
     background-color: black;
     border-radius: 1rem;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
     opacity: 0;
     animation: fade-in 1s ease-in forwards;
-    filter: grayscale(100%); /* Make the card black and white */
+    filter: grayscale(100%);
+    /* Make the card black and white */
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -80,7 +79,7 @@
     }
 }
 
-.card-img{
+.card-img {
     width: 100%;
     border-radius: 0.5rem;
     height: auto;
@@ -90,12 +89,14 @@
 
 
 .card:hover {
-    transform: scale(1.03); /* Slight zoom out (5% larger) */
-    filter: grayscale(0%); /* Restore original color */
+    transform: scale(1.03);
+    /* Slight zoom out (5% larger) */
+    filter: grayscale(0%);
+    /* Restore original color */
 }
 
 
-.card-text{
+.card-text {
     color: whitesmoke;
     margin-top: 1.5rem;
     display: flex;
@@ -106,14 +107,14 @@
 }
 
 
-.card-name-small{
+.card-name-small {
     font-weight: 300;
     letter-spacing: 0.1rem;
     font-size: 1rem;
 }
 
 
-.card-name-tools{
+.card-name-tools {
     font-weight: 300;
     margin-top: -0.5rem;
     letter-spacing: 0.1rem;
@@ -123,7 +124,7 @@
     /* margin-left: 1rem; */
 }
 
-.card-name-role{
+.card-name-role {
     font-weight: 300;
     margin-top: -0.5rem;
     letter-spacing: 0.1rem;
@@ -133,7 +134,7 @@
 }
 
 
-.card-name-small-para{
+.card-name-small-para {
     margin-top: -0.4rem;
     font-weight: 300;
     letter-spacing: 0.04rem;
@@ -148,7 +149,7 @@
     /* margin-left: 1rem; */
 }
 
-.card-name-large{
+.card-name-large {
     margin-top: -0.3rem;
     font-weight: 400;
     letter-spacing: 0.1rem;
@@ -157,29 +158,30 @@
 
 }
 
-  
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
 
-.ovals{
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.ovals {
     display: flex;
     /* justify-content: center; */
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
-    
+
 
 }
 
-.role-name{
+.role-name {
     border-radius: 1rem;
     background-color: rgb(225, 225, 225);
     color: black;

@@ -27,7 +27,7 @@ function About() {
               fueled by a love for building and bringing ideas to 
               life. Today, I channel that same passion into web 
               development and UI design through hands-on work 
-              in several clubs that inspire me. Being part of <a href='https://ucsddesign.co/' target='_blank'>Design Co</a>, 
+              in several clubs that inspire me. Being part of <a href='https://designatucsd.com/' target='_blank'>Design Co</a>, 
               the  <a href='https://www.ds3ucsd.com/' target='_blank'>Data Science Student Society</a>, and <a href='https://acmucsd.com/' target='_blank'>ACM</a> at UC San Diego have shaped my skills
                as a developer, strengthened my eye for design, and taught 
                me how to create digital experiences that make an impact.</p>
