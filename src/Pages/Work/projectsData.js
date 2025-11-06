@@ -1,33 +1,42 @@
 // Import images
-import dco from '../../assets/Projects/dco.webp';
+// import dco from '../../assets/Projects/dco.webp';
 import mentor from '../../assets/Projects/p-mentor.webp';
 import ds3 from '../../assets/Projects/ds3.webp';
 import shot from '../../assets/Projects/portfolio.webp';
 import tball from '../../assets/Projects/tball.webp';
-import upgrade from '../../assets/Projects/upgrade.png';
+import upgrade from '../../assets/Projects/upgrade.webp';
 import project1 from '../../assets/Projects/projectup.webp';
-import shot4 from '../../assets/Projects/traveltrendz.webp';
-import shot6 from '../../assets/Projects/weather.webp';
-import shot7 from '../../assets/Projects/rainfall.webp';
+// import shot4 from '../../assets/Projects/traveltrendz.webp';
+// import shot6 from '../../assets/Projects/weather.webp';
+// import shot7 from '../../assets/Projects/rainfall.webp';
 import meridian from '../../assets/Projects/meridian.webp';
+import stride from '../../assets/Projects/stride25.webp';
 
 const projects = [
+  { 
+    title: "STRIDE 2025", 
+    role: "Software Developer", 
+    image: stride, 
+    tools: "React, Typescript, SASS, GSAP, Material UI",
+    link: "https://stride25.designatucsd.com/",
+    description: "Held once a year, STRIDE (design-forward career fair) connects students with company representatives for a day of networking, resume reviews, and recruiting sessions designed to jump-start industry careers."
+  },
   { 
     title: "Foundation Interface Lab",
     role: "Software Developer Research Intern", 
     image: meridian, 
-    tools: "Next.js, Typescript, SASS, Tailwind CSS, Firebase",
+    tools: "Next.js, Typescript, SASS, Tailwind CSS, Firebase, GPT-4o, NPM, Daisy UI",
     link: "https://github.com/meridian-ui/meridian",
     description: "Testing, building, and refining Meridian, a design framework for creating customizable overview-detail interfaces (ODIs) that bridge designers, developers, and end-users."
   },
-  { 
-    title: "Design Co",
-    role: "Web Developer", 
-    image: dco, 
-    tools: "React, Typescript, Next.js, HTML, SASS",
-    link: "https://ucsddesign.co/",
-    description: "Creating interactive websites for UC San Diego's largest pre-professional design community events."
-  },
+  // { 
+  //   title: "Design Co",
+  //   role: "Web Developer", 
+  //   image: dco, 
+  //   tools: "React, Typescript, Next.js, HTML, SASS",
+  //   link: "https://ucsddesign.co/",
+  //   description: "Creating interactive websites for UC San Diego's largest pre-professional design community events."
+  // },
   { 
     title: "UpGrade",
     role: "Web Developer", 
@@ -59,7 +68,7 @@ const projects = [
     title: "DS3 Society", 
     role: "Software Developer", 
     image: ds3, 
-    tools: "React, Typescript, Tailwind CSS, DaisyUI, MongoDB",
+    tools: "React, Typescript, Tailwind CSS, DaisyUI, Supabase",
     link: "https://www.ds3ucsd.com/",
     description: "Revamping the main, consulting, and hackathon websites for the data science student society." },
 
@@ -79,29 +88,30 @@ const projects = [
     link: "https://github.com/acmucsd-projects/su24a-hack-team-1/tree/main" ,
     description: "A platform for UC students to find and share local projects to build their resumes."},
 
-  { 
-    title: "TravelTrendz 2024", 
-    role: "Personal Project", 
-    image: shot4, 
-    tools: "Python, BeautifulSoup, sqlite3, customtkinter",
-    link: "https://github.com/ShamitaGoyal/lab3-project",
-    description: "A travel recommendation app that scrapes destination data and provides personalized suggestions." },
+  // { 
+  //   title: "TravelTrendz 2024", 
+  //   role: "Personal Project", 
+  //   image: shot4, 
+  //   tools: "Python, BeautifulSoup, sqlite3, customtkinter",
+  //   link: "https://github.com/ShamitaGoyal/lab3-project",
+  //   description: "A travel recommendation app that scrapes destination data and provides personalized suggestions." },
 
-  { 
-    title: "Bay Forecast", 
-    role: "Personal Project", 
-    image: shot6, 
-    tools: " Python, Multi-threading, Multi-processing, APIs, tkinter",
-    link: "https://github.com/ShamitaGoyal/lab4-project" ,
-    description: "A weather forecast program for Bay Area cities that compares multithreading vs. multiprocessing for speed."},
+  // { 
+  //   title: "Bay Forecast", 
+  //   role: "Personal Project", 
+  //   image: shot6, 
+  //   tools: " Python, Multi-threading, Multi-processing, APIs, tkinter",
+  //   link: "https://github.com/ShamitaGoyal/lab4-project" ,
+  //   description: "A weather forecast program for Bay Area cities that compares multithreading vs. multiprocessing for speed."},
   
-  { 
-    title: "San Francisco Rainfall", 
-    role: "Personal Project", 
-    image: shot7, 
-    tools: "Python, customtkinter",
-    link: "https://github.com/ShamitaGoyal/lab2-project",
-    description: "A rainfall analysis app for San Francisco, analyzing data from 1850 to 2023 to track historical trends and patterns in precipitation." }
+  // { 
+  //   title: "San Francisco Rainfall", 
+  //   role: "Personal Project", 
+  //   image: shot7, 
+  //   tools: "Python, customtkinter",
+  //   link: "https://github.com/ShamitaGoyal/lab2-project",
+  //   description: "A rainfall analysis app for San Francisco, analyzing data from 1850 to 2023 to track historical trends and patterns in precipitation." 
+  // }
 ];
 
 export default projects;
