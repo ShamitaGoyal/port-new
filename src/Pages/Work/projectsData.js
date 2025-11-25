@@ -26,7 +26,7 @@ const projects = [
     role: "Software Developer Research Intern", 
     image: meridian, 
     tools: "Next.js, Typescript, SASS, Tailwind CSS, Firebase, GPT-4o, NPM, Daisy UI",
-    link: "https://github.com/meridian-ui/meridian",
+    link: "https://meridian-busan-app.vercel.app/",
     description: "Testing, building, and refining Meridian, a design framework for creating customizable overview-detail interfaces (ODIs) that bridge designers, developers, and end-users."
   },
   // { 
