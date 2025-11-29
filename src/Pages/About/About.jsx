@@ -8,8 +8,6 @@ import matcha from '../../assets/About/matcha.png'
 import mngo from '../../assets/About/mngo.png'
 
 
-
-
 function About() {
   return (
     <section className='profile-section'>

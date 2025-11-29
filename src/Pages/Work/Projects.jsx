@@ -1,12 +1,46 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './projects.css';
 import projects from './projectsData'; 
 import HoverEffect from '../../Components/HoverEffect';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    if (!sectionRef.current) return;
+
+    const ctx = gsap.context(() => {
+      const cards = sectionRef.current.querySelectorAll('.card');
+      
+      // Set initial state
+      gsap.set(cards, {
+        opacity: 0,
+        y: 50,
+      });
+
+      ScrollTrigger.batch(cards, {
+        start: "top 90%",
+        onEnter: (batch) =>
+          gsap.to(batch, {
+            opacity: 1,
+            y: 0,
+            stagger: 0.2,
+            duration: 1,
+            ease: "expo.out",
+          }),
+      });
+    }, sectionRef);
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <div id='projects'>
+    <div id='projects' ref={sectionRef}>
       {/* Attach HoverEffect globally */}
       <HoverEffect />  
       
