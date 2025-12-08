@@ -11,8 +11,17 @@ import project1 from '../../assets/Projects/projectup.webp';
 // import shot7 from '../../assets/Projects/rainfall.webp';
 import meridian from '../../assets/Projects/meridian.webp';
 import stride from '../../assets/Projects/stride25.webp';
+import spotify from '../../assets/Projects/spotify.webp';
 
 const projects = [
+  { 
+    title: "Music Vinyl", 
+    role: "Personal Project", 
+    image: spotify, 
+    tools: "Electron, Node.js, Express, Spotify Web API, JavaScript, HTML, CSS, Canvas API, Figma",
+    link: "https://github.com/ShamitaGoyal/electronApp",
+    description: "A minimalist vinyl-inspired Spotify client that displays the current track, animates a spinning vinyl, and themes the UI using colors extracted from the album art."
+  },
   { 
     title: "STRIDE 2025", 
     role: "Software Developer", 
