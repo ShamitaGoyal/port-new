@@ -94,7 +94,7 @@ const projects = [
     role: "Frontend Developer", 
     image: project1, 
     tools: "React, Express.js, Node.js, MongoDB, Figma",
-    link: "https://test-su24a-hack-team-1.vercel.app/" ,
+    link: "https://project-up.vercel.app/" ,
     description: "A platform for UC students to find and share local projects to build their resumes."},
 
   // { 
